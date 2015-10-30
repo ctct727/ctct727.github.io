@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-image:url("http://iliketowastemytime.com/sites/default/files/new-york-skyline-night-wallpaper_1.jpg");
+	height: auto;
+	width: auto;
+	margin:0%;
+	padding:0%;
+}
+
+body{
+	position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+	
+	margin-right:auto;
+	margin-left:auto;
+	max-width:800px;
+	min-width:250px;
+	padding:15px;
+	margin-top:0%;
+	margin-bottom:0%;
+	height:100%;
+	text-align:center;
+}
+
+.header h1{
+	font-size:36px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#C00;
+	text-decoration:none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+.header url{
+	text-align:center;
+	
+}
+
+.header li{
+	display:inline;
+}
+
+a:visited{
+	text-decoration:none;
+}
+
+
+#one{
+	background-color:#939;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-right-radius:5px;
+	padding:3px;
+	font-size:12px;
+	position:relative;
+	margin-right:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	font
+}
+
+	
+
+
+.header a{
+	text-decoration:none;
+}
+
+.About Me{
+	float:left;
+	max-width:80%;
+	font-size:36px;
+}
+
+h2{
+	color:white;
+}
+
+.Contact{
+	height:50px;
+	width:100px;
+	float:left;
+	text-align:center;
+}
+
+
+.Contact ul{
+	margin-left:0px;
+	padding-left:0px;
+	list-style:none;
+	margin-top:0px;
+	color:white;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;
+}
+	
+div div p{
+	background-color:#96C;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-right-radius:5px;
+	color:white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	text-align:center;
+	padding-right:90px;
+
+}
+
+.Welcome{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:75%;
+	position:relative;
+	
+}
+
+
+.sidebar{
+	list-style:none;
+	text-decoration:none;
+	float:left;
+	border:solid white;
+	position:relative;
+	left:-200px;
+	height:500px;
+	padding-right:10px;
+	
+	
+}
+
+.picture{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+
+
+
+
