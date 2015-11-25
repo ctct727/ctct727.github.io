@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+/* Header */ #LayoutDiv1 {
+	clear: both;
+	float: top;
+	margin-left: 0;
+	margin-right:0;
+	width: 100%;
+	display: block;
+	color:blue;
+	text-align:center;
+	font-size:24px;
+}
+/* Nav */#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 20.8333%;
+	width: 58.3333%;
+	display: inline;
+}
+
+#LayoutDiv2 li{
+	display:inline;
+	text-decoration:none;
+	text-align:center;
+	padding-left:19px;
+	margin-right:15px;
+	
+}
+
+/* Photos */#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+/* About Me */#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	padding-top:20px;
+}
+/* Strengths */#LayoutDiv5 {
+		clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	z-index:-1;
+}
+
+
+/* Weaknesses */#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	z-index:-1;
+}
+/* Contact */#LayoutDiv7 {
+	clear: both;
+	margin-left: 20.8333%;
+	width: 58.3333%;
+	display: block;
+	padding-top:20px;
+}
+
+#LayoutDiv7 li{
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	font-size:10px;
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	position:relative;
+	margin-top:-190px;
+	float: left;
+	margin-left: 51.282%;
+	width: 48.7179%;
+	display: block;
+}
+
+/*strengths*/
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 51.282%;
+	width: 48.7179%;
+	display: block;
+	position:relative;
+
+}
+}
+/*weakness*/
+#LayoutDiv6 {
+	clear: both;
+	margin-top:-110px;
+	float: left;
+	width: 28.5714%;
+	display: block;
+	
+	margin-left: 61.2244%;
+	
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 30.6122%;
+	width: 38.7755%;
+	display: block;
+}
+
+
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	margin-left: 20.4081%;
+	width: 59.1836%;
+	display: block;
+	font-size:36px;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	font-size:32px;
+}
+
+
+/*pic*/
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	display: block;
+}
+
+
+
+/*me*/
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-500px;
+
+	display: block;
+	position:relative;
+
+	
+}
+
+
+/*strength*/
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	display: block;
+	position:relative;
+	margin-top:-600px;
+}
+
+/*weakness*/
+#LayoutDiv6 {
+	clear: both;
+	margin-left: 300px;
+	margin-top:-600px;
+	display: block;
+	position:relative;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	display: block;
+
+}
+}
