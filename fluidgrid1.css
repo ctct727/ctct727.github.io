@@ -84,7 +84,8 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	z-index:-1;
+	z-index:0;
+	opacity:0;
 }
 
 
@@ -94,7 +95,8 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	z-index:-1;
+	z-index:0;
+	opacity:0;
 }
 /* Contact */#LayoutDiv7 {
 	clear: both;
@@ -128,7 +130,7 @@ img, object, embed, video {
 #LayoutDiv2 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left: 200px;
 	width: 100%;
 	display: block;
 }
@@ -153,13 +155,15 @@ img, object, embed, video {
 #LayoutDiv5 {
 	clear: both;
 	float: left;
-	margin-left: 51.282%;
+	margin-left: 0;
 	width: 48.7179%;
 	display: block;
-	position:relative;
+	position:relative;.
+	z-index:1;
+	opacity:1;
 
 }
-}
+
 /*weakness*/
 #LayoutDiv6 {
 	clear: both;
@@ -167,7 +171,8 @@ img, object, embed, video {
 	float: left;
 	width: 28.5714%;
 	display: block;
-	
+	z-index:1;
+	opacity:1;
 	margin-left: 61.2244%;
 	
 }
@@ -178,7 +183,7 @@ img, object, embed, video {
 	width: 38.7755%;
 	display: block;
 }
-
+}
 
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -214,19 +219,22 @@ img, object, embed, video {
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left: 300px;
 	display: block;
 }
 
+#LayoutDiv3 img{
+	width:400px;
+	height:300px;
+}
 
 
 /*me*/
 #LayoutDiv4 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	margin-top:-500px;
-
+	margin-left: 300px;
+	margin-top:100px;
 	display: block;
 	position:relative;
 
@@ -241,21 +249,23 @@ img, object, embed, video {
 	margin-left: 0;
 	display: block;
 	position:relative;
-	margin-top:-600px;
+	margin-top:-400px;
+	width:;
+	height:300px;
 }
 
 /*weakness*/
 #LayoutDiv6 {
 	clear: both;
-	margin-left: 300px;
-	margin-top:-600px;
+	margin-left: 790px;
+	margin-top:-400px;
 	display: block;
 	position:relative;
 }
 #LayoutDiv7 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left: 300px;
 	display: block;
 
 }
