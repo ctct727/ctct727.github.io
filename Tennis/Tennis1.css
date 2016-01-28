@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		6;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+html{
+	background-color:#090;
+	width:100%;
+}
+@charset "utf-8";
+/* CSS Document */
+
+
+/*dropdown*/
+.clearfix after{
+	width:100%
+	clear:both;
+	display:block;
+}
+
+/*menu outline */
+.menu-wrap{
+	width:100%;
+}
+
+.menu{
+	text-align:center;
+	padding-top:25px;
+}
+
+.menu li{
+	list-style:none;
+	font-size:20px;
+	transition:all linear 0.15s;
+}
+
+.menu a{
+	transform:all linear 0.15s;
+	color:#333;
+	text-decoration:none;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+	text-decoration:none;
+}
+	
+/*top level*/
+
+.menu > ul{
+	displayu:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.menu> ul > li{
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:10%;
+	border: 1px solid #FFF;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+
+.menu > ul > li:hover, .menu > ul> .current-item > a {
+	background:#063;
+}
+
+/*bottom level */
+
+.menu li:hover .submenu{
+	z-index:1;
+	opacity:1;
+}
+
+.submenu{
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#063;
+	text-align:center;
+	border-top:solid #FFF thick;
+}
+
+.submenu li {
+	display::table;
+	text-align:center;
+	width:80%;
+	border-top::0;
+	margin:left;
+}
+
+.submenu a{
+	display:table-cell;
+	height:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:center;
+}
+
+.submenu li:hover, .submenu .current-item a {
+	background-color:#063;
+}
+
+.menu li:hover .submenu2{
+	z-index:1;
+	opacity:1;
+}
+
+.submenu2{
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:0%;
+	left:100%;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#063;
+	text-align:center;
+	border-top:solid #FFF thick;
+}
+
+.submenu2 li {
+	display::table;
+	text-align:center;
+	width:80%;
+	border-top::0;
+	margin:left;
+	
+}
+
+.submenu2 a{
+	display:table-cell;
+	height:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:center;
+}
+
+.submenu2 li:hover, .submenu2 .current-item a {
+	background-color:#063;
+}
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.9666%;
+	padding-left: 1.5166%;
+	padding-right: 1.5166%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+}
+
+h5{
+	color:white;
+	text-decoration:none;
+	margin-left:10px;
+	font-size:18px;
+}
+
+/*Header*/
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	position:relative;
+	margin-left: 0;
+	width: 100%;
+	height:200px;
+	display: block;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:36px;
+	color:white;
+	border-top:7px solid #FFF;
+	border-left:7px solid #FFF;
+	border-right:7px solid #FFF;
+	padding-top:20px;
+	
+}
+
+#LayoutDiv1 a{
+	text-decoration:none;
+	color:white;
+}
+/*PictureLeft*/
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	position:relative;
+	margin-left: 0;
+	margin-top:0;
+	width: 15.2542%;
+	height:807px;
+	display: block;
+	
+}
+
+#LayoutDiv2 img {
+	height:633px;
+	width:100%;
+	border-top:7px solid #FFF;
+	border-bottom:7px solid #FFF;
+	border-right:7px solid #FFF;
+	border-left:7px solid #FFF;
+}
+
+/*BasicRules*/
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	position:relative;
+	margin-left: 16.9491%;
+	width: 32.2033%;
+	display: block;
+	margin-top:-807px;
+	border:7px solid #FFF;
+	height:300px;
+}
+
+#LayoutDiv3 img {
+	height:200px;
+	width:200px;
+	margin-left:100px;
+}
+
+/*Tutorials*/
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	position:relative;
+	margin-left: 50.8474%;
+	width: 32.2033%;
+	display: block;
+	margin-top:-807px;
+	border:7px solid #FFF;
+	height:300px;
+}
+
+#LayoutDiv4 img {
+	height:200px;
+	width:200px;
+	margin-left:100px;
+	
+}
+
+/*Professional*/
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	position:relative;
+	padding-top:15px;
+	margin-left: 16.9491%;
+	margin-top:-490px;
+	width: 32.2033%;
+	display: block;
+	border:7px solid #FFF;
+	height:300px;
+}
+
+#LayoutDiv5 img {
+	height:200px;
+	width:200px;
+	margin-left:100px;
+}
+
+/*Gear*/
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	position:relative;
+	padding-top:15px;
+	margin-left: 50.8474%;
+	margin-top:-490px;
+	width: 32.2033%;
+	display: block;
+	border:7px solid #FFF;
+	height:300px;
+}
+
+#LayoutDiv6 img {
+	height:200px;
+	width:200px;
+	margin-left:100px;
+}
+
+/*PicRight*/
+#LayoutDiv7 {
+	clear: both;
+	float: right;
+	position:relative;
+	margin-right: -7px;
+	margin-top:-808px;
+	width: 15.2542%;
+	height:600px;
+	display: block;
+	border-bottom:7px solid #FFF;
+	border-right:7px solid #FFF;
+
+}
+
+#LayoutDiv7 img{
+	height:633px;
+	width:100%;
+	border:7px solid #FFF;	
+	border-right:7px solid #FFF;
+}
+
+#LayoutDiv8{
+	clear: both;
+	float:left;
+	postition:relative;
+	margin-left: 0;
+	margin-top:-167px;
+	width: 100%;
+	display: block;
+	border-right:7px solid #FFF;
+	border-left:7px solid #FFF;
+	border-bottom:7px solid #FFF;
+	height:200px;
+}
+
+#LayoutDiv8 h3{
+	margin-left:30px;
+	color:white;
+	font-size:20px;
+}
+
+#LayoutDiv8 p{
+	margin-left:30px;
+	color:white;
+	font-size:14px;
+}
