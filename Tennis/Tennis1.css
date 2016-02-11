@@ -247,61 +247,176 @@ html{
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
+h5{
+	color:white;
+	text-decoration:none;
+	margin-left:10px;
+	font-size:18px;
+}
+
+/*Header*/
 #LayoutDiv1 {
 	clear: both;
 	float: left;
+	position:relative;
 	margin-left: 0;
 	width: 100%;
+	height:200px;
 	display: block;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:36px;
+	color:white;
+	border-top:7px solid #FFF;
+	border-left:7px solid #FFF;
+	border-right:7px solid #FFF;
+	border-bottom:7px solid #FFF;
+	padding-top:20px;
+	
 }
+
+#LayoutDiv1 a{
+	text-decoration:none;
+	color:white;
+}
+/*PictureLeft*/
 #LayoutDiv2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+
 }
+
+#LayoutDiv2 img{
+	z-index:-1;
+	opacity:0;
+}
+
+/*BasicRules*/
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	position:relative;
+	margin-left: 0%;
+	width: 47.5%;
 	display: block;
+	margin-top:-807px;
+	border:7px solid #FFF;
+	height:300px;
 }
+
+#LayoutDiv3 img {
+	height:200px;
+	width:200px;
+	margin-left:25%;
+}
+
+/*Tutorials*/
 #LayoutDiv4 {
 	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
+	position:relative;
+	float:right;
+	width: 47.5%;
 	display: block;
+	margin-top:-807px;
+	border:7px solid #FFF;
+	height:300px;
+	padding-right:0px;
+	margin-right:0px;
+	right:-2%;
+	
 }
+
+#LayoutDiv4 img {
+	height:200px;
+	width:200px;
+	margin-left:25%;
+	
+}
+
+
+/*Professional*/
 #LayoutDiv5 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	position:relative;
+	margin-left: 0%;
+	width: 47.5%;
 	display: block;
+	margin-top:-490px;
+	border:7px solid #FFF;
+	height:300px;
 }
+
+#LayoutDiv5 img {
+	height:200px;
+	width:200px;
+	margin-left:25%;
+}
+
+/*Gear*/
 #LayoutDiv6 {
 	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
+	float: right;
+	position:relative;
+	margin-right:0%;
+	width: 47.5%;
 	display: block;
+	margin-top:-490px;
+	display: block;
+	border:7px solid #FFF;
+	height:300px;
 }
+
+#LayoutDiv6 img {
+	height:200px;
+	width:200px;
+	margin-left:25%;
+}
+
+/*PicRight*/
 #LayoutDiv7 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+
 }
-#LayoutDiv8 {
+
+#LayoutDiv7 img{
+	z-index:-1;
+	opacity:0;
+}
+
+/*About*/
+#LayoutDiv8{
 	clear: both;
-	float: left;
+	float:left;
+	postition:relative;
 	margin-left: 0;
+	margin-top:-173%;
 	width: 100%;
 	display: block;
+	border-right:7px solid #FFF;
+	border-left:7px solid #FFF;
+	border-bottom:7px solid #FFF;
+	border-top:7px solid #FFF;
+	height:200px;
+}
+
+#LayoutDiv8 h3{
+	margin-left:30px;
+	color:white;
+	font-size:20px;
+}
+
+#LayoutDiv8 p{
+	margin-left:30px;
+	color:white;
+	font-size:14px;
 }
 }
 
@@ -339,6 +454,7 @@ h5{
 	border-top:7px solid #FFF;
 	border-left:7px solid #FFF;
 	border-right:7px solid #FFF;
+	border-bottom:none;
 	padding-top:20px;
 	
 }
@@ -367,6 +483,8 @@ h5{
 	border-bottom:7px solid #FFF;
 	border-right:7px solid #FFF;
 	border-left:7px solid #FFF;
+	z-index:1;
+	opacity:1;
 }
 
 /*BasicRules*/
@@ -385,7 +503,7 @@ h5{
 #LayoutDiv3 img {
 	height:200px;
 	width:200px;
-	margin-left:100px;
+	margin-left:25%;
 }
 
 /*Tutorials*/
@@ -404,7 +522,7 @@ h5{
 #LayoutDiv4 img {
 	height:200px;
 	width:200px;
-	margin-left:100px;
+	margin-left:25%;
 	
 }
 
@@ -425,7 +543,7 @@ h5{
 #LayoutDiv5 img {
 	height:200px;
 	width:200px;
-	margin-left:100px;
+	margin-left:25%;
 }
 
 /*Gear*/
@@ -445,7 +563,7 @@ h5{
 #LayoutDiv6 img {
 	height:200px;
 	width:200px;
-	margin-left:100px;
+	margin-left:25%;
 }
 
 /*PicRight*/
@@ -453,13 +571,11 @@ h5{
 	clear: both;
 	float: right;
 	position:relative;
-	margin-right: -7px;
+	margin-right: 0%;
 	margin-top:-808px;
 	width: 15.2542%;
 	height:600px;
 	display: block;
-	border-bottom:7px solid #FFF;
-	border-right:7px solid #FFF;
 
 }
 
@@ -468,8 +584,11 @@ h5{
 	width:100%;
 	border:7px solid #FFF;	
 	border-right:7px solid #FFF;
+	z-index:1;
+	opacity:1;
 }
 
+/*About*/
 #LayoutDiv8{
 	clear: both;
 	float:left;

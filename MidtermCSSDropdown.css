@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu ul li{
+	font-size:20px;
+	opacity:0;
+	z-index:-1;
+}
+
+
+	
