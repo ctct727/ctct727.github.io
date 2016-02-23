@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("BasicsCSS.css");
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
@@ -36,7 +37,7 @@ html{
 
 /*dropdown*/
 .clearfix after{
-	width:100%
+	width:100%;
 	clear:both;
 	display:block;
 }
@@ -214,54 +215,151 @@ h5{
 	text-decoration:none;
 	color:white;
 }
+/*PictureLeft*/
 #LayoutDiv2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	height:0%;
+	z-index:-1;
+	
+
 }
+
+#LayoutDiv2 img{
+	z-index:-1;
+	opacity:0;
+	height:0%;
+}
+/*BasicRules*/
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	position:relative;
+	margin-left: 0%;
 	width: 100%;
 	display: block;
+	margin-top:10%;
+	border:7px solid #FFF;
+	height:300px;
 }
+
+#LayoutDiv3 img {
+	height:50%;
+	width:50%;
+	margin-left:25%;
+	margin-top:-3%;
+}
+
+/*Tutorials*/
 #LayoutDiv4 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	position:relative;
+	margin-left: 0%;
 	width: 100%;
 	display: block;
+	margin-top:1%;
+	border: 7px solid #FFF;
+	height:300px;
 }
+
+#LayoutDiv4 img {
+	height:50%;
+	width:50%;
+	margin-left:25%;
+	margin-top:-3%;
+	
+}
+/*Professional*/
 #LayoutDiv5 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	position:relative;
+	margin-left: 0%;
 	width: 100%;
 	display: block;
+	margin-top:1%;
+	border:7px solid #FFF;
+	height:300px;
 }
+
+#LayoutDiv5 img {
+	height:50%;
+	width:50%;
+	margin-left:25%;
+	margin-top:-3%;
+}
+
+/*Gear*/
 #LayoutDiv6 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	position:relative;
+	margin-right:0%;
 	width: 100%;
 	display: block;
+	margin-top:1%;
+	display: block;
+	border:7px solid #FFF;
+	height:300px;
+	right:0%;
 }
+
+#LayoutDiv6 img {
+	height:50%;
+	width:50%;
+	margin-left:25%;
+	margin-top:-3%;
+}
+/*PicRight*/
 #LayoutDiv7 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	height:0%;
+
 }
-#LayoutDiv8 {
+
+#LayoutDiv7 img{
+	z-index:-1;
+	opacity:0;
+	height:0%;
+}
+
+/*About*/
+#LayoutDiv8{
 	clear: both;
-	float: left;
-	margin-left: 0;
+	float:left;
+	postition:relative;
+	margin-left:0;
+	margin-top:1%;
 	width: 100%;
 	display: block;
+	border-right:7px solid #FFF;
+	border-left:7px solid #FFF;
+	border-bottom:7px solid #FFF;
+	border-top:7px solid #FFF;
+	height:200px;
+	z-index:0;
+	opacity:0;
+}
+
+#LayoutDiv8 h3{
+	margin-left:30px;
+	color:white;
+	font-size:20px;
+}
+
+#LayoutDiv8 p{
+	margin-left:30px;
+	color:white;
+	font-size:90%;
+	padding-right:5px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -327,7 +425,7 @@ h5{
 	margin-left: 0%;
 	width: 47.5%;
 	display: block;
-	margin-top:-807px;
+	margin-top:0%;
 	border:7px solid #FFF;
 	height:300px;
 }
@@ -346,7 +444,7 @@ h5{
 	float:right;
 	width: 49.5%;
 	display: block;
-	margin-top:-807px;
+	margin-top:-34.6%;
 	border:7px solid #FFF;
 	height:300px;
 	padding-right:0px;
@@ -372,7 +470,7 @@ h5{
 	margin-left: 0%;
 	width: 47.5%;
 	display: block;
-	margin-top:-490px;
+	margin-top:2%;
 	border:7px solid #FFF;
 	height:300px;
 }
@@ -392,7 +490,7 @@ h5{
 	margin-right:0%;
 	width: 49.5%;
 	display: block;
-	margin-top:-490px;
+	margin-top:-34.6%;
 	display: block;
 	border:7px solid #FFF;
 	height:300px;
@@ -427,7 +525,7 @@ h5{
 	float:left;
 	postition:relative;
 	margin-left: 0;
-	margin-top:-173%;
+	margin-top:0%;
 	width: 100%;
 	display: block;
 	border-right:7px solid #FFF;
@@ -435,6 +533,8 @@ h5{
 	border-bottom:7px solid #FFF;
 	border-top:7px solid #FFF;
 	height:200px;
+	z-index:1;
+	opacity:1;
 }
 
 #LayoutDiv8 h3{
@@ -528,6 +628,7 @@ h5{
 	margin-top:-807px;
 	border:7px solid #FFF;
 	height:300px;
+	
 }
 
 #LayoutDiv3 img {
@@ -535,6 +636,7 @@ h5{
 	width:50%;
 	margin-left:25%;
 	margin-top:-3%;
+
 }
 
 /*Tutorials*/
@@ -638,6 +740,8 @@ h5{
 	border-bottom:7px solid #FFF;
 	border-top:none;
 	height:200px;
+	z-index:1;
+	opacity:1;
 }
 
 #LayoutDiv8 h3{

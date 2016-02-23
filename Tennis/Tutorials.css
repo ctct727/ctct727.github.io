@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+	color:#FFF;
+}
+
+
+#LayoutDiv3 img{
+	margin-bottom:10%;
+}
+
+#LayoutDiv5 volleyf img{
+	display:inline;
+	height:20px;
+	width:100px;
+}

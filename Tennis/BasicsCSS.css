@@ -1,0 +1,54 @@
+/* CSS Document */
+p{
+	color:#FFF;
+}
+
+li{
+	color:#FFF;
+}
+#LayoutDiv3{
+	height:2000px;
+}
+
+#LayoutDiv3 p{
+
+	font-size:100%;
+	padding-top:0;
+	padding-right:1%;
+	padding-left:3%;
+}
+
+#LayoutDiv3 img{
+	height:100%;
+	width:100%;
+}
+
+#LayoutDiv4 p{
+	font-size:100%;
+	padding-top:0;
+	padding-right:1%;
+	padding-left:3%;
+}
+
+#LayoutDiv5 p{
+	font-size:100%;
+	padding-top:0;
+	padding-right:1%;
+	padding-left:3%;
+}
+
+#LayoutDiv5 img{
+	height:100%;
+	width:100%;
+}
+
+#LayoutDiv6 ul{
+	padding-top:0;
+	padding-bottom:3%;
+}
+
+#LayoutDiv8{
+	z-index:-1;
+	opacity:0;
+	
+	
