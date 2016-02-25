@@ -262,7 +262,7 @@ h5{
 	margin-left: 0%;
 	width: 100%;
 	display: block;
-	margin-top:-34.6%;
+	margin-top:1%;
 	border: 7px solid #FFF;
 	height:300px;
 }
@@ -345,7 +345,7 @@ h5{
 	border-left:7px solid #FFF;
 	border-bottom:7px solid #FFF;
 	border-top:7px solid #FFF;
-	height:200px;
+	height:0px;
 	z-index:0;
 	opacity:0;
 }
@@ -449,7 +449,7 @@ h5{
 	float:right;
 	width: 49.5%;
 	display: block;
-	margin-top:-49.5%;
+	margin-top:-45.1;
 	border:7px solid #FFF;
 	height:300px;
 	padding-right:0px;
@@ -495,7 +495,7 @@ h5{
 	margin-right:0%;
 	width: 49.5%;
 	display: block;
-	margin-top:49.5%;
+	margin-top:45.1%;
 	display: block;
 	border:7px solid #FFF;
 	height:300px;
