@@ -608,6 +608,8 @@ h5{
 	width: 15.2542%;
 	height:807px;
 	display: block;
+	z-index:1;
+	opacity:1;
 	
 }
 
