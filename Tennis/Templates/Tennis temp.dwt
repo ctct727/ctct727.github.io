@@ -82,7 +82,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   
   <!-- TemplateBeginEditable name="EditRegion1" -->
   <h5>Basic Rules/How to play</h5>
-  <a href="#"><img src="TennisPics/Tennis_Clayton20120121_76-23.jpg" /></a>
+  <a href="Basics.html"><img src="TennisPics/Tennis_Clayton20120121_76-23.jpg" /></a>
    <!-- TemplateEndEditable -->
   
   </div>
@@ -92,7 +92,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   
   
   <h5>Tips and Tutorials</h5>
-  <a href="#"><img src="TennisPics/chiropractor-market-harborough-tennis-injuries-2.jpg" /></a>
+  <a href="Tutorials.html"><img src="TennisPics/chiropractor-market-harborough-tennis-injuries-2.jpg" /></a>
   
   <!-- TemplateEndEditable -->
   
@@ -103,7 +103,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   
   <div id="LayoutDiv5">
     <h5>Professional</h5>
-  <a href="#"><img src="TennisPics/200px-ATP_World_Tour.png" /></a>
+  <a href="Pro.html"><img src="TennisPics/200px-ATP_World_Tour.png" /></a>
   
   <!-- TemplateEndEditable -->
   
@@ -114,7 +114,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   
   
   <h5>Gear</h5>
-  <a href="#"><img src="TennisPics/TennisEquipment.jpg" /></a>
+  <a href="Tennis/Gear.html"><img src="TennisPics/TennisEquipment.jpg" /></a>
   
   <!-- TemplateEndEditable -->
 </div>
