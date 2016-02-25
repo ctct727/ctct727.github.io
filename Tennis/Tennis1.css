@@ -222,8 +222,9 @@ h5{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	height:0%;
+	height:0;
 	z-index:-1;
+	opacity:0;
 	
 
 }
@@ -231,7 +232,7 @@ h5{
 #LayoutDiv2 img{
 	z-index:-1;
 	opacity:0;
-	height:0%;
+	height:0;
 }
 /*BasicRules*/
 #LayoutDiv3 {
@@ -241,7 +242,7 @@ h5{
 	margin-left: 0%;
 	width: 100%;
 	display: block;
-	margin-top:10%;
+	margin-top:1%;
 	border:7px solid #FFF;
 	height:300px;
 }
