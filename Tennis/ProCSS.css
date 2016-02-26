@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+#LayoutDiv5 h7{
+  margin-top:25%;
+}
+
+
 #LayoutDiv5 ol{
   margin:0;
   padding:0;
