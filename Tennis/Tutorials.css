@@ -17,6 +17,8 @@ p{
 }
 
 #LayoutDiv8 img{
+	margin:0;
+	padding:0;
 	display:inline;
 	width:50%;
 	height:50%;
