@@ -349,8 +349,8 @@ h5{
 	border-bottom:7px solid #FFF;
 	border-top:7px solid #FFF;
 	height:0px;
-	z-index:0;
-	opacity:0;
+	z-index:1;
+	opacity:1;
 }
 
 #LayoutDiv8 h3{
