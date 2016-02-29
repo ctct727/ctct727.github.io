@@ -543,7 +543,7 @@ h5{
 	border-left:7px solid #FFF;
 	border-bottom:7px solid #FFF;
 	border-top:7px solid #FFF;
-	height:200px;
+	height:200%;
 	z-index:1;
 	opacity:1;
 }
