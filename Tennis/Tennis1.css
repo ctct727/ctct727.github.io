@@ -754,7 +754,7 @@ h5{
 	border-left:7px solid #FFF;
 	border-bottom:7px solid #FFF;
 	border-top:none;
-	height:200px;
+	height:200%;
 	z-index:1;
 	opacity:1;
 }
