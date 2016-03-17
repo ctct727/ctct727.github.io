@@ -1,0 +1,65 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="file:///Z|/Web design/Chris Tsang/Conspiracy/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="file:///Z|/Web design/Chris Tsang/Conspiracy/Index.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="file:///Z|/Web design/Chris Tsang/Conspiracy/respond.min.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div class="gridContainer clearfix">
+  
+  <div id="LayoutDiv1">
+  <div id="pt1"> Paul McCartney </div>
+  <div id="pt2"> is Dead </div>
+  </div>
+ 
+  <div id="LayoutDiv2"><!-- TemplateBeginEditable name="EditRegion3" -->
+  
+  <!--<img src="beatles 5.jpg" />--><div><strong>Artwork </strong></div>
+  
+  <!-- TemplateEndEditable --></div>
+  
+  <div id="LayoutDiv3"><!-- TemplateBeginEditable name="EditRegion4" -->
+  <div><strong>Songs</strong></div>
+  <!-- TemplateEndEditable -->
+  
+  </div>
+  
+  <div id="LayoutDiv4"><!-- TemplateBeginEditable name="EditRegion5" -->
+  <div><strong>My Opinion</strong></div>
+  <!-- TemplateEndEditable -->
+  </div>
+  
+  <div id="LayoutDiv5"><!-- TemplateBeginEditable name="EditRegion6" -->
+  
+  <div><strong>References</strong></div>
+  <!-- TemplateEndEditable -->
+  </div>
+</div>
+</body>
+</html>
