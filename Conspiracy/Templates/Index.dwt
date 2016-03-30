@@ -34,30 +34,44 @@ Do the following if you're using your customized build of modernizr (http://www.
 <div class="gridContainer clearfix">
   
   <div id="LayoutDiv1">
+  <a href="Index.html">
   <div id="pt1"> Paul McCartney </div>
   <div id="pt2"> is Dead </div>
+  </a>
   </div>
  
-  <div id="LayoutDiv2"><!-- TemplateBeginEditable name="EditRegion3" -->
+  <div id="LayoutDiv2">
+  <a href="#">
+  <!-- TemplateBeginEditable name="EditRegion3" -->
   
-  <!--<img src="beatles 5.jpg" />--><div><strong>Artwork </strong></div>
+  <!--<img src="beatles 5.jpg" />--><div style="background-image:none;"><strong>Artwork </strong></div>
+  
+  </a>
   
   <!-- TemplateEndEditable --></div>
   
-  <div id="LayoutDiv3"><!-- TemplateBeginEditable name="EditRegion4" -->
+  <div id="LayoutDiv3">
+  <a href="#">
+  <!-- TemplateBeginEditable name="EditRegion4" -->
   <div><strong>Songs</strong></div>
+  </a>
   <!-- TemplateEndEditable -->
   
   </div>
   
-  <div id="LayoutDiv4"><!-- TemplateBeginEditable name="EditRegion5" -->
+  <div id="LayoutDiv4">
+  <a href="#">
+  <!-- TemplateBeginEditable name="EditRegion5" -->
   <div><strong>My Opinion</strong></div>
+  </a>
   <!-- TemplateEndEditable -->
   </div>
   
-  <div id="LayoutDiv5"><!-- TemplateBeginEditable name="EditRegion6" -->
-  
+  <div id="LayoutDiv5">
+  <a href="#">
+  <!-- TemplateBeginEditable name="EditRegion6" -->
   <div><strong>References</strong></div>
+  </a>
   <!-- TemplateEndEditable -->
   </div>
 </div>
