@@ -415,10 +415,17 @@ a{
 	font-size:12px;
 	font-family:"Times New Roman", Times, serif;
 	 text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-	 	color:#FFF;
-	
-	
+	 	color:#FFF;	
 
+}
+
+#LayoutDiv3 iframe{
+	position:relative;
+	margin-bottom:30px;
+}
+
+#LayoutDiv3 h7{
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 #LayoutDiv4 {
 	clear: both;
@@ -446,9 +453,12 @@ a{
 	text-align:center;
 
 
-	
-
 }
+
+#LayoutDiv4 h7{
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
 
 #LayoutDiv5 {
 	clear: both;

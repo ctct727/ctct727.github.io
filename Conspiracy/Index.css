@@ -47,7 +47,9 @@ img, object, embed, video {
 html{
 	background-color:#999;
 }
-
+a{
+	text-decoration:none;
+}
 #LayoutDiv1 {
 	clear: both;
 	float: left;
@@ -209,6 +211,7 @@ html{
 
 
 #LayoutDiv2 {
+	
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -260,12 +263,15 @@ html{
 	width: 49%;
 	display: block;
 	height:200px;
+	margin-top:15%;
+	display:block;
+	border:#000 solid 3px;
 }
 
 #LayoutDiv4 div{
 	height:100%;
 	width:100%;
-
+	background-image:url("think_cloud.png");
 	font-size:40px;
 	font-family:"Times New Roman", Times, serif;
 	 text-shadow: -5px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -328,6 +334,7 @@ html{
 	background-image: url("220px-GreatHoax.jpg");
 	background-size:auto;
 	background-repeat:no-repeat;
+	
 }
 
 #pt1{
@@ -340,6 +347,7 @@ html{
 	z-index:1;
 	opacity:1;
 }
+
 
 #pt2{
 	position:relative;
