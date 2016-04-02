@@ -387,8 +387,8 @@ a{
 }
 
 #LayoutDiv2 div img{
-	height:45%;
-	width:45%;
+	height:35%;
+	width:35%;
 	margin-top:6%;
 }
 
@@ -508,6 +508,7 @@ a{
 	position:relative;
 	height:30%;
 	width:25%;
+	margin-bottom:10%;
 }
 
 }
