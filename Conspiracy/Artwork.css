@@ -405,6 +405,10 @@ a{
 	
 }
 
+#LayoutDiv2 a{
+	text-decoration:none;
+}
+
 #LayoutDiv3 {
 	clear: both;
 	float: left;
