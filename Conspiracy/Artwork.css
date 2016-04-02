@@ -377,22 +377,24 @@ a{
 #LayoutDiv2 div p{
 	height:100%;
 	width:100%;
-
-	font-size:20px;
+	background-image:none;
+	font-size:12px;
 	font-family:"Times New Roman", Times, serif;
 	 text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	 	color:#FFF;
+	text-align:center;
+
+
+}
 	
-
+#LayoutDiv2 div  ul{
+	margin-top:5px;
 }
 
-#LayoutDiv2 div img{
-	height:35%;
-	width:35%;
-	margin-top:0;
-}
-
-#LayoutDiv2 div li{
+#LayoutDiv2 div  li{
+	height:100%;
+	width:100%;
+	margin-top:5px;
 	font-size:12px;
 	font-family:"Times New Roman", Times, serif;
 	 text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
