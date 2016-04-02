@@ -392,6 +392,19 @@ a{
 	margin-top:0;
 }
 
+#LayoutDiv2 li{
+	height:100%;
+	width:100%;
+	margin-top:5px;
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+	 text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	 	color:#FFF;
+
+	text-align:center;
+	
+}
+
 #LayoutDiv3 {
 	clear: both;
 	float: left;
