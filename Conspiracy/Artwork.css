@@ -471,7 +471,18 @@ a{
 	margin-bottom:100px;
 }
 
+#LayoutDiv5 div p{
+	height:100%;
+	width:100%;
+	background-image:none;
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+	 text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	 	color:#FFF;
+	text-align:center;
 
+
+}
 	
 #LayoutDiv5 div  ul{
 	margin-top:5px;
