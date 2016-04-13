@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body onload="T()">
+<script>
+
+function T() {
+	document.getElementById('1').style.display="none";
+	document.getElementById('2').style.display="none";
+}
+
+function display1() {
+	document.getElementById('1').style.display="block";
+	document.getElementById('2').style.display="none";
+}
+
+function display2() {
+	document.getElementById('2').style.display="block";
+	document.getElementById('1').style.display="none";
+}
+
+function display3(){
+	document.getElementById('2').style.display="block";
+	document.getElementById('1').style.display="block";
+	document.getElementById('2').style.color="red";
+	document.getElementById('1').style.color="blue";
+
+}
+</script>
+
+
+<div id="1">
+<h1>Words Words Words </h1>
+<p>words words words words</p>
+</div>
+
+<div id="2">
+<h1>Swords Swords Swords </h1>
+<p>swords swords swords swords swords</p>
+</div>
+
+<button onclick="display1()">
+button 1
+</button>
+
+<button onclick="display2()">
+button 2
+</button>
+
+<button onclick="display3()">
+button 3
+</button>
+
+</body>
+</html>
