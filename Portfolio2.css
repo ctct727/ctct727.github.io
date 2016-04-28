@@ -26,12 +26,14 @@ img, object, embed, video {
 	http://goldengridsystem.com/
 */
 
+
 html{
 	background-image:url(Portfolio2/hongkong-5.jpg);
 	background-repeat:no-repeat;
-	background-position:center;
+	background-position: 30% 50%;
 	background-size:cover;
 }
+
 
 /* Mobile Layout: 480px and below. */
 
@@ -67,6 +69,22 @@ html{
 	display: block;
 	margin-top:2%;
 }
+
+#Tennis {
+	z-index:-1;
+	opacity:0;
+}
+
+#HK{
+	z-index:1;
+	opacity:1;
+}
+
+#Soccer{
+	z-index:-1;
+	opacity:0;
+}
+
 #LayoutDiv3 {
 	clear: both;
 	float: left;
@@ -75,6 +93,12 @@ html{
 	width: 100%;
 	display: block;
 	border:1px solid #000;
+	color:white;
+	opacity:1;
+}
+
+#LayoutDiv4 h3{
+	color: white;
 }
 #LayoutDiv4 {
 	clear: both;
@@ -93,6 +117,10 @@ html{
 	border:1px solid #000;
 	width:60%;
 	padding:3%;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-stretch:ultra-expanded;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -139,12 +167,28 @@ html{
 	width: 100%;
 	display: block;
 }
+
+#Tennis {
+	z-index:-1;
+	opacity:0;
+}
+
+#HK{
+	z-index:1;
+	opacity:1;
+}
+
+#Soccer{
+	z-index:-1;
+	opacity:0;
+}
 #LayoutDiv3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	opacity:1;
 }
 #LayoutDiv4 {
 	clear: both;
@@ -154,7 +198,20 @@ html{
 	display: block;
 	border:1px solid #000;
 	margin-top:2%;
+	
 }
+
+#LayoutDiv4 div{
+	text-align:center;
+	margin-left:17%;
+	margin-bottom:5%;
+	border:1px solid #000;
+	width:60%;
+	padding:3%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-stretch:expanded;
+}
+	
 
 
 
@@ -179,29 +236,37 @@ html{
 	width: 100%;
 	display: block;
 	text-align:center;
-	background-color:#39F;
-	opacity:.5;
+	background-color:transparent;
+	opacity:1;
 }
 
 #LayoutDiv1 h1{
-	opacity:5;
-	font-size:20px;
+	opacity:1;
+	font-size:28px;
 	font-family:Verdana, Geneva, sans-serif;
 }
 
 #LayoutDiv1 ul{
 	list-style:none;
 	display:inline;
+
 }
 
 
 #LayoutDiv1 li{
 	text-decoration:none;
-	font-size:16px;
+	font-size:18px;
 	display:inline;
-	padding-left:2%;
-	padding-right:2%;
+	padding-left:4%;
+	padding-right:4%;
 	border:1px solid #000;
+	
+}
+
+#LayoutDiv1 li a{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
 	
 }
 
@@ -218,14 +283,39 @@ html{
 	width: 100%;
 	display: block;
 }
+
+#LayoutDiv2 img{
+	display:inline;
+	height:25%;
+	width:25%;
+	padding-left:5%;
+	padding-right:3%;
+}
+
+#Tennis {
+	z-index:1;
+	opacity:1;
+}
+
+#HK{
+	z-index:1;
+	opacity:1;
+}
+
+#Soccer{
+	z-index:1;
+	opacity:1;
+}
 #LayoutDiv3 {
 	clear: both;
 	float: left;
 	margin-left: 0%;
-	margin-top:20%;
+	margin-top:10%;
 	width: 49%;
 	display: block;
 	border:1px solid #000;
+	
+	
 }
 
 #LayoutDiv3 p{
@@ -240,7 +330,9 @@ html{
 	width: 49%;
 	display: block;
 	border:1px solid #000;
-	margin-top:-10%;
+	margin-top:-5%;
+	margin-bottom:0%;
+	
 }
 
 #LayoutDiv4 div{
@@ -250,7 +342,18 @@ html{
 	border:1px solid #000;
 	width:60%;
 	padding:3%;
-	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-stretch:ultra-expanded;
 }
+	
+
+
+
+
+
+
+
 
 }

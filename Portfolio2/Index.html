@@ -24,7 +24,23 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="respond.min.js"></script>
+
+
+
+<script>
+function display (tier) {
+	switch(tier){
+case 1:
+
+	document.getElementById("demo").innerHTML = "Conspiracy, Christmas, Portfolio1, Tennis" ;
+	break;
+	
+	}
+}
+</script>
+
+
+
 </head>
 <body>
 <div class="gridContainer clearfix">
@@ -44,20 +60,37 @@ Do the following if you're using your customized build of modernizr (http://www.
   </div>
 
   
-  <div id="LayoutDiv2">This is the content for Layout Div Tag "LayoutDiv2"</div>
-  
-  <div id="LayoutDiv3">
+ <div id="LayoutDiv2">
+ 
+  <img id="Tennis" src="Z:\Web design\Chris Tsang\ctct727.github.io\Portfolio2\IMG_1998.png" />
+  <img id="HK" src="Z:\Web design\Chris Tsang\ctct727.github.io\Portfolio2\IMG_1749.jpg" />
+  <img id="Soccer" src="Z:\Web design\Chris Tsang\ctct727.github.io\Portfolio2\IMG_1395.jpg" />
+</div>
+
+  <div id="LayoutDiv3" style="background-color:#30F; opacity:.8;">
   <h3>About Me:</h3>
-  <p>one two three four five six seven eight nine ten eleven tweleve thirteen fourteen fifteen sixteen</p>
+  <p>My name is Chris Tsang. I am a student at Stonington High School. I play soccer and tennis. I plan on attending the University of Connecticut and studying computer science. On this website you can find out more about myself including my favorite things, photos, and other websites. </p>
   </div>
   
-  <div id="LayoutDiv4">
+  <div id="LayoutDiv4" style="background-color:#069; opacity:.9;">
   <h3>Learn More:</h3>
-  <div id="FavThings"> Favorite things </div>
-  <div id="LeastFav"> Least Favorite</div>
-  <div id="Photos">Photos</div>
-  <div id="Future">Future</div>
-  <div id="Other">Other Sites</div>
+  
+  <div id="FavThings" style="background-color:#0CF; opacity:.9;"><strong> Favorite things </strong></div>
+  
+  <div id="LeastFav" style="background-color:#0CF; opacity:.9;"> <strong>Least Favorite</strong></div>
+  
+  <div id="Photos" style="background-color:#0CF; opacity:.9;"><strong>Photos</strong></div>
+  
+  <div id="Future" style="background-color:#0CF; opacity:.9;"><strong>Future</strong></div>
+  
+  <div id="Other" style="background-color:#0CF; opacity:.9;">
+  
+  <button onclick = "display(1)">Other Sites</button>
+
+<p id="demo">
+
+
+</div>
   
   </div>
 </div>
