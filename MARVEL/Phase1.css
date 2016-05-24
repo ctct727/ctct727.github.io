@@ -171,6 +171,38 @@ p{
 	width:25%;
 }
 
+#LayoutDiv8{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv9{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv10{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv11{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -257,6 +289,34 @@ img{
 	width: 100%;
 	display: block;
 }
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv9 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv10 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv11 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 }
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
@@ -284,7 +344,7 @@ img{
 }
 
 #LayoutDiv1 p{
-	font-size:16px;
+	font-size:20px;
 	margin-left:40%;
 }
 
@@ -301,8 +361,8 @@ img{
 }
 
 h3{
-	font-size:18px;
-	margin-left:5%;
+	font-size:24px;
+	margin-left:2%;
 
 }
 
@@ -353,5 +413,33 @@ h3{
 	width: 90%;
 	display: block;
 	height:400px;
+}
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv9 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv10 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv11 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
 }
 }
