@@ -129,6 +129,12 @@ p{
 	width:25%;
 }
 
+#LayoutDiv4 h3{
+	font-size:16px;
+}
+
+
+
 #LayoutDiv5 {
 	clear: both;
 	float: left;
@@ -177,6 +183,12 @@ p{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	border: 3px solid #FFF;
+}
+
+#LayoutDiv8 img{
+	height:25%;
+	width:25%;
 }
 
 #LayoutDiv9{
@@ -185,6 +197,12 @@ p{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	border: 3px solid #FFF;
+}
+
+#LayoutDiv9 img{
+	height:25%;
+	width:25%;
 }
 
 #LayoutDiv10{
@@ -193,6 +211,13 @@ p{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	border: 3px solid #FFF;
+}
+
+
+#LayoutDiv10 img{
+	height:25%;
+	width:25%;
 }
 
 #LayoutDiv11{
@@ -201,6 +226,12 @@ p{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	border: 3px solid #FFF;
+}
+
+#LayoutDiv11 img{
+	height:25%;
+	width:25%;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -218,11 +249,12 @@ div{
 
 h3{
 	color:#FFF;
+	font-size:28px;
 }
 
 p{
 	color:#FFF;
-	font-size:28px;
+	font-size:24px;
 	margin-left:40%;
 	position:relative;
 	margin-top:-40%;
@@ -268,6 +300,16 @@ img{
 	width: 100%;
 	display: block;
 }
+
+#LayoutDiv4 h3{
+	font-size:18px;
+}
+
+#LayoutDiv4 p{
+	padding-top:55px;
+	padding-left:20px;
+	padding-right:2px;
+
 #LayoutDiv5 {
 	clear: both;
 	float: left;
@@ -275,6 +317,7 @@ img{
 	width: 100%;
 	display: block;
 }
+
 #LayoutDiv6 {
 	clear: both;
 	float: left;
@@ -390,6 +433,15 @@ h3{
 	display: block;
 	height:400px;
 }
+
+#LayoutDiv4 p{
+	padding-top:50px;
+}
+
+#LayoutDiv4 h3{
+	font-size:24px;
+}
+
 #LayoutDiv5 {
 	clear: both;
 	float: left;
@@ -417,29 +469,33 @@ h3{
 #LayoutDiv8 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 5%;
+	width: 90%;
 	display: block;
+	height:400px;
 }
 #LayoutDiv9 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 5%;
+	width: 90%;
 	display: block;
+	height:400px;
 }
 #LayoutDiv10 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 5%;
+	width: 90%;
 	display: block;
+	height:400px;
 }
 #LayoutDiv11 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 5%;
+	width: 90%;
 	display: block;
+	height:400px;
 }
 }
