@@ -310,7 +310,7 @@ html{
 	clear: both;
 	float: left;
 	margin-left: 0%;
-	margin-top:500px;
+	margin-top:300px;
 	width: 49%;
 	display: block;
 	border:1px solid #000;
@@ -330,7 +330,7 @@ html{
 	width: 49%;
 	display: block;
 	border:1px solid #000;
-	margin-top:-5%;
+	margin-top:-20px;
 	margin-bottom:0%;
 	
 }
@@ -338,7 +338,6 @@ html{
 #LayoutDiv4 div{
 	text-align:center;
 	margin-left:17%;
-	margin-bottom:5%;
 	border:1px solid #000;
 	width:60%;
 	padding:3%;
