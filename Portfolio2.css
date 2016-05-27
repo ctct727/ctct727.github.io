@@ -255,6 +255,7 @@ html{
 #LayoutDiv1 ul{
 	list-style:none;
 	display:inline;
+	padding:5px;
 
 }
 
