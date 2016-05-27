@@ -56,6 +56,11 @@ html{
 	padding:10px;
 }
 
+#LayoutDiv1 li{
+	padding:10px;
+}
+
+
 #nav{
 	z-index:-1;
 	opacity:0;
